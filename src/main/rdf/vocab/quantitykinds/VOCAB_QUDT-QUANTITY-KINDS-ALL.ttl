@@ -472,8 +472,8 @@ quantitykind:Admittance
   """^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T3D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-51"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Admittance"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$Y = \\frac{1}{Z}$, where $Z$ is impedance."^^qudt:LatexString ;
   qudt:latexSymbol "$Y$"^^qudt:LatexString ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q214518> ;
@@ -3703,8 +3703,8 @@ quantitykind:DisplacementCurrent
     dielectric polarization.
   """^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E1L0I0M0H0T0D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Displacement_current"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$I_D= \\int_S J_D \\cdot e_n dA$, over a surface $S$, where $J_D$ is displacement current density and $e_n dA$ is the vector surface element."^^qudt:LatexString ;
   qudt:plainTextDescription """"Displacement Current" is a quantity appearing in Maxwell's equations that is defined in terms of
     the rate of change of electric displacement field. Displacement current has the units of electric current density, and it has
@@ -3728,8 +3728,8 @@ quantitykind:DisplacementCurrentDensity
   """^^qudt:LatexString ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Electric_flux"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E1L-2I0M0H0T0D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "http://www.maxwells-equations.com/math/partial-electric-flux.php"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$J_D = \\frac{\\partial D}{\\partial t}$, where $D$ is electric flux density and $t$ is time."^^qudt:LatexString ;
   qudt:latexSymbol "$J_D$"^^qudt:LatexString ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q77614612> ;
@@ -4195,8 +4195,8 @@ quantitykind:ElectricCharge
   qudt:hasDimensionVector qkdv:A0E1L0I0M0H0T1D0 ;
   qudt:iec61360Code "0112/2///62720#UAD037" ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=121-11-01"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Electric_charge"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$dQ = Idt$, where $I$ is electric current."^^qudt:LatexString ;
   qudt:siExactMatch si-quantity:ELCH ;
   qudt:symbol "Q" ;
@@ -4238,9 +4238,9 @@ quantitykind:ElectricChargeDensity
   qudt:expression "$charge-density$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E1L-3I0M0H0T1D0 ;
   qudt:iec61360Code "0112/2///62720#UAD242" ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "http://www.maxwells-equations.com/pho/charge-density.php"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Charge_density"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\rho = \\frac{dQ}{dV}$, where $Q$ is electric charge and $V$ is Volume."^^qudt:LatexString ;
   qudt:latexSymbol "$\\rho$"^^qudt:LatexString ;
   qudt:plainTextDescription """In electromagnetism, charge density is a measure of electric charge per unit volume of space, in
@@ -4278,8 +4278,8 @@ quantitykind:ElectricChargeLinearDensity
   qudt:deprecatedInVersion "3.2.0" ;
   qudt:expression "$linear-charge-density$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E1L-1I0M0H0T1D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Charge_density"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\rho_l = \\frac{dQ}{dl}$, where $Q$ is electric charge and $l$ is length."^^qudt:LatexString ;
   qudt:latexSymbol "$\\rho_l$"^^qudt:LatexString ;
   qudt:latexSymbol "$\\tau$"^^qudt:LatexString ;
@@ -4331,8 +4331,8 @@ quantitykind:ElectricChargeSurfaceDensity
   """^^qudt:LatexString ;
   qudt:expression "$surface-charge-density$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E1L-2I0M0H0T1D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Charge_density"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\rho_A = \\frac{dQ}{dA}$, where $Q$ is electric charge and $A$ is Area."^^qudt:LatexString ;
   qudt:latexSymbol "$\\rho_A$"^^qudt:LatexString ;
   qudt:plainTextDescription """In electromagnetism, charge density is a measure of electric charge per unit volume of space, in
@@ -4538,8 +4538,8 @@ quantitykind:ElectricCurrentPhasor
   """^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E1L0I0M0H0T0D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-11-26"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Phasor_(electronics)"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "When $i = \\hat{I} \\cos{(\\omega t + \\alpha)}$, where $i$ is the electric current, $\\omega$ is angular frequence, $t$ is time, and $\\alpha$ is initial phase, then $\\underline{I} = Ie^{ja}$."^^qudt:LatexString ;
   qudt:latexSymbol "$\\underline{I}$"^^qudt:LatexString ;
   qudt:organizedUnder quantitykind:ElectricCurrent ;
@@ -4567,8 +4567,8 @@ quantitykind:ElectricDipoleMoment
   qudt:eclassCode "0173-1#Z4-BAJ236#004" ;
   qudt:hasDimensionVector qkdv:A0E1L1I0M0H0T1D0 ;
   qudt:iec61360Code "0112/2///62720#UAD041" ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Electric_dipole_moment"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:isoNormativeReference "http://www.iso.org/iso/catalogue_detail?csnumber=31894"^^xsd:anyURI ;
   qudt:latexDefinition """$E_p = -p \\cdot E$, where $E_p$ is the interaction energy of the molecule with electric dipole moment $p$ and an electric field with electric field strength $E$.
 
@@ -4630,8 +4630,8 @@ quantitykind:ElectricDisplacement
   """^^qudt:LatexString ;
   qudt:exactMatch quantitykind:ElectricFluxDensity ;
   qudt:hasDimensionVector qkdv:A0E1L-2I0M0H0T1D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "http://www.oxfordreference.com/view/10.1093/acref/9780199233991.001.0001/acref-9780199233991-e-895"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$D = \\epsilon_0 E + P$, where $\\epsilon_0$ is the electric constant, $E$ is electric field strength, and $P$ is electric polarization."^^qudt:LatexString ;
   qudt:specializationOf quantitykind:ElectricChargePerArea ;
   qudt:symbol "D" ;
@@ -5125,8 +5125,8 @@ quantitykind:ElectromagneticPermeability
   qudt:eclassCode "0173-1#Z4-BAJ362#004" ;
   qudt:exactMatch quantitykind:Permeability ;
   qudt:hasDimensionVector qkdv:A0E-2L1I0M1H0T-2D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Permeability_(electromagnetism)"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\mu = \\frac{B}{H}$,  where $B$ is magnetic flux density,  and $H$ is magnetic field strength."^^qudt:LatexString ;
   qudt:latexSymbol "$\\mu$"^^qudt:LatexString ;
   qudt:wikidataMatch <http://www.wikidata.org/entity/Q28352> ;
@@ -7556,8 +7556,8 @@ quantitykind:Impedance
   qudt:dbpediaMatch "http://dbpedia.org/resource/Electrical_impedance"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E-2L2I0M1H0T-3D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-43"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Electrical_impedance"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\underline{Z} = \\underline{U} / \\underline{I}$, where $\\underline{U}$ is the voltage phasor and $\\underline{I}$ is the electric current phasor."^^qudt:LatexString ;
   qudt:latexSymbol "$\\underline{Z}$"^^qudt:LatexString ;
   qudt:organizedUnder quantitykind:Resistance ;
@@ -7899,8 +7899,8 @@ quantitykind:InstantaneousPower
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-11-31"^^xsd:anyURI ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=141-02-14"^^xsd:anyURI ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=141-03-10"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Power"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$p = ui$, where $u$ is instantaneous voltage and $i$ is instantaneous electric current."^^qudt:LatexString ;
   qudt:specializationOf quantitykind:ElectricPower ;
   qudt:symbol "p" ;
@@ -8922,8 +8922,8 @@ quantitykind:LinearElectricChargeDensity
   qudt:exactMatch quantitykind:ElectricChargeLineDensity ;
   qudt:expression "$linear-charge-density$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E1L-1I0M0H0T1D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Charge_density"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\rho_l = \\frac{dQ}{dl}$, where $Q$ is electric charge and $l$ is length."^^qudt:LatexString ;
   qudt:latexSymbol "$\\rho_l$"^^qudt:LatexString ;
   qudt:latexSymbol "$\\tau$"^^qudt:LatexString ;
@@ -9298,8 +9298,8 @@ quantitykind:LinkedFlux
   qudt:expression "$linked-flux$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E-1L2I0M1H0T-2D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=121-11-24"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "http://www.oxfordreference.com/display/10.1093/acref/9780199233991.001.0001/acref-9780199233991-e-1800"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\Psi_m = \\int_C A \\cdot dr$, where $A$ is magnetic vector potential and $dr$ is the vector element of the curve $C$."^^qudt:LatexString ;
   qudt:latexSymbol "$\\Psi$"^^qudt:LatexString ;
   qudt:latexSymbol "$\\Psi_m$"^^qudt:LatexString ;
@@ -10297,8 +10297,8 @@ quantitykind:MagneticFlux
   qudt:expression "$magnetic-flux$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E-1L2I0M1H0T-2D0 ;
   qudt:iec61360Code "0112/2///62720#UAD099" ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "http://www.oxfordreference.com/display/10.1093/acref/9780199233991.001.0001/acref-9780199233991-e-1800"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\Phi = \\int_S B \\cdot e_n d A$, over a surface $S$, where $B$ is magnetic flux density and $e_n dA$ is the vector surface element."^^qudt:LatexString ;
   qudt:latexSymbol "$\\Phi$"^^qudt:LatexString ;
   qudt:latexSymbol "$\\phi$"^^qudt:LatexString ;
@@ -10340,8 +10340,8 @@ quantitykind:MagneticFluxDensity
   """^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E-1L0I0M1H0T-2D0 ;
   qudt:iec61360Code "0112/2///62720#UAD100" ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "http://www.oxfordreference.com/display/10.1093/acref/9780199233991.001.0001/acref-9780199233991-e-1798"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\mathbf{F}  = qv \\times B$, where $F$ is force and $v$ is velocity of any test particle with electric charge $q$."^^qudt:LatexString ;
   qudt:plainTextDescription """vektorielle Feldgröße B, die auf jedes geladene Teilchen, das eine Geschwindigkeit v hat, eine
     Kraft F ausübt, die gleich dem Produkt aus dem Vektorprodukt v x B und der elektrischen Ladung Q des Teilchens ist oder
@@ -11642,9 +11642,9 @@ quantitykind:ModulusOfAdmittance
   dcterms:description "\"Modulus Of Admittance\" is the absolute value of the quantity \"admittance\"."^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T3D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-51"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Absolute_value"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Admittance"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$Y = \\left | \\underline{Y} \\right |$, where $\\underline{Y}$ is admittance."^^qudt:LatexString ;
   qudt:plainTextDescription "\"Modulus Of Admittance\" is the absolute value of the quantity \"admittance\"." ;
   qudt:specializationOf quantitykind:Admittance ;
@@ -11677,9 +11677,9 @@ quantitykind:ModulusOfImpedance
     defined more generally as  the quotient of rms voltage and rms electric current; it is often denoted by $Z$.
   """^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E-2L2I0M1H0T-3D0 ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Absolute_value"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Electrical_impedance"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$Z = \\left | \\underline{Z} \\right |$, where $\\underline{Z}$ is impedance."^^qudt:LatexString ;
   qudt:specializationOf quantitykind:Impedance ;
   qudt:symbol "Z" ;
@@ -13309,8 +13309,8 @@ quantitykind:Permeance
   """^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E-2L2I0M1H0T-2D0 ;
   qudt:iec61360Code "0112/2///62720#UAD135" ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Permeance"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\Lambda = \\frac{1}{R_m}$, where $R_m$ is reluctance."^^qudt:LatexString ;
   qudt:latexSymbol "$\\Lambda$"^^qudt:LatexString ;
   qudt:plainTextDescription """"Permeance" is the inverse of reluctance. Permeance is a measure of the quantity of flux for a
@@ -13335,8 +13335,8 @@ quantitykind:Permittivity
   qudt:hasDimensionVector qkdv:A0E2L-3I0M-1H0T4D0 ;
   qudt:iec61360Code "0112/2///62720#UAD136" ;
   qudt:informativeReference "http://maxwells-equations.com/materials/permittivity.php"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Permittivity?oldid=494094133"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$\\epsilon = \\frac{D}{E}$, where $D$ is electric flux density and $E$ is electric field strength."^^qudt:LatexString ;
   qudt:latexSymbol "$\\epsilon$"^^qudt:LatexString ;
   qudt:plainTextDescription """"Permittivity" is a physical quantity that describes how an electric field affects, and is affected
@@ -13392,8 +13392,8 @@ quantitykind:PhaseDifference
   qudt:expression "$phase-difference$"^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=103-07-06"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Phase_(waves)#Phase_difference"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:isoNormativeReference "http://www.iso.org/iso/catalogue_detail?csnumber=43012"^^xsd:anyURI ;
   qudt:latexDefinition "$\\varphi = \\varphi_u - \\varphi_i$, where $\\varphi_u$ is the initial phase of the voltage and $\\varphi_i$ is the initial phase of the electric current."^^qudt:LatexString ;
   qudt:latexSymbol "$\\varphi$"^^qudt:LatexString ;
@@ -14931,8 +14931,8 @@ quantitykind:Reactance
   qudt:dbpediaMatch "http://dbpedia.org/resource/Electrical_reactance"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E-2L2I0M1H0T-3D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-46"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Electrical_reactance?oldid=494180019"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$X = im \\underline{Z}$, where $\\underline{Z}$ is impedance and $im$ denotes the imaginary part."^^qudt:LatexString ;
   qudt:organizedUnder quantitykind:Resistance ;
   qudt:plainTextDescription """"Reactance" is the opposition of a circuit element to a change of electric current or voltage, due
@@ -15446,8 +15446,8 @@ quantitykind:Reluctance
   qudt:eclassCode "0173-1#Z4-BAJ265#005" ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T2D0 ;
   qudt:iec61360Code "0112/2///62720#UAD159" ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Magnetic_reluctance"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$R_m = \\frac{U_m}{\\Phi}$, where $U_m$ is magnetic tension, and $\\Phi$ is magnetic flux."^^qudt:LatexString ;
   qudt:plainTextDescription """"Reluctance" or magnetic resistance, is a concept used in the analysis of magnetic circuits. It is
     analogous to resistance in an electrical circuit, but rather than dissipating electric energy it stores magnetic energy. In
@@ -18014,8 +18014,8 @@ quantitykind:Susceptance
   qudt:dbpediaMatch "http://dbpedia.org/resource/Susceptance"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T3D0 ;
   qudt:informativeReference "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-54"^^xsd:anyURI ;
-  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:informativeReference "https://en.wikipedia.org/wiki/Susceptance?oldid=430151986"^^xsd:anyURI ;
+  qudt:informativeReference "https://webstore.iec.ch/en/publication/60010"^^xsd:anyURI ;
   qudt:latexDefinition "$B = \\lim{\\underline{Y}}$, where $\\underline{Y}$ is admittance."^^qudt:LatexString ;
   qudt:plainTextDescription """"Susceptance" is the imaginary part of admittance. The inverse of admittance is impedance and the
     real part of admittance is conductance.
